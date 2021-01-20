@@ -29,9 +29,9 @@ class App extends React.Component {
 
 	componentDidMount() {
 		
-		/* if (localStorage.getItem('tk-uid')) {
+		if (localStorage.getItem('tk-uid')) {
 			socket.emit('reconnection', localStorage.getItem('tk-uid'))
-		} */
+		} 
 		
 		socket.on('view', view => {
 			this.setState({
