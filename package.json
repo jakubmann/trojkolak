@@ -16,5 +16,6 @@
     "selenium-webdriver": "^4.0.0-alpha.7",
     "socket.io": "^2.3.0",
     "uuid": "^8.3.1"
-  }
+  },
+   "engines" : { "node" : ">=0.12" } 
 }
