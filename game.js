@@ -10,7 +10,7 @@ class Game {
     id = Math.random().toString(36).substring(2, 13);
     // id = 'test'
     wordCount = 5
-    time = 15
+    time = 60
     leader = ''
     timer = null
     state = {
