@@ -38,13 +38,7 @@ class App extends React.Component {
 				view
 			})
 
-			if (this.state.view === 'words') {
-				for (let i = 0; i < 5; i++) {
-					window.setTimeout(() => {
-						socket.emit('addWord', Math.random().toString(36).substring(2,7))
-					}, 500)
-				}
-			}
+
 		})
 
 		socket.on('round', round => {
