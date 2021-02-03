@@ -6,6 +6,7 @@ const shuffleArray = arr => arr
     .sort((a, b) => a[0] - b[0])
     .map(a => a[1]);
 
+    
 class Game {
     id = Math.random().toString(36).substring(2, 13);
     // id = 'test'
