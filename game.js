@@ -7,8 +7,8 @@ const shuffleArray = arr => arr
     .map(a => a[1]);
 
 class Game {
-    id = Math.random().toString(36).substring(2, 13);
-    // id = 'test'
+    //id = Math.random().toString(36).substring(2, 13);
+    id = 'test'
     wordCount = 5
     time = 60
     leader = ''
